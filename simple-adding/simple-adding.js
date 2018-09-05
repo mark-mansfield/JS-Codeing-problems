@@ -15,7 +15,7 @@ function simpleAddingAlt(num) {
     // create an array sequence and add 1 to num because we are starting from zero
     const array = Array.from(Array(num+1).keys())
 
-    //  use a reducer that executes a custom function on each item of the array returning a final result
+    //  use a reducer that executes a custom function on each item of the array returning a final single result
     //  total is an accumulator and is remembered across each iteration.
     //  current value is the value of the element being processed
 
