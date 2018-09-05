@@ -4,8 +4,8 @@ function simpleAdding(num) {
     for (let i = num; i > 0; i--) {
         total = i + total
     }
-    // code goes here
+
     return total;
 }
 
-console.log(simpleAdding(12))
+console.log(simpleAdding(4))

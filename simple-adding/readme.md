@@ -13,7 +13,7 @@ function simpleAdding(num) {
     for (let i = num; i > 0; i--) {
         total = i + total
     }
-    // code goes here
+
     return total;
 }
 
