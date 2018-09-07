@@ -14,26 +14,20 @@ Input:45
 
 Output:"0:45"
 
-# first attempt
+# Solution - using division and modulo
 ```
 function timeConvert(num) {
 
-    // check edge case first
-    if (num < 60) {
-        return "0:" + num
-    }
+    //  Math approach using division and modulo
+    //  math floor returns us the largest number based on its arguments , a division equation
+    var hours = Math.floor(num / 60);
 
-    // use a combination of math and string manipulation
+    // lets get the minutes by getting the remiander or just the whole number if under 60
+    var minutes = num % 60;
+    console.log(minutes)
 
-    //  convert num to string to use substring of  as a minutes value
-    const str = num.toString()
-
-    // divide the number by 60 to get an hours value
-    const hours = num / 60;
-
-    // convert the hours to a string so we can get just the first character
-    //  then we get the last character of the minutes value
-    return hours.toString().charAt(0) + ":" + str.charAt(str.length - 1)
+    // combine the hours and minutes
+    return hours + ':' + minutes
 }
 
 
