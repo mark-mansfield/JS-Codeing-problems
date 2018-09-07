@@ -1,4 +1,4 @@
-# KaprekarsConstant
+# Kaprekars Constant
 
 Using the JavaScript language, have the function KaprekarsConstant(num) take the num parameter being passed which will be a 4-digit number with at least two distinct digits.
 
@@ -19,7 +19,7 @@ For example: if num is 3524 your program should return 3 because of the followin
 (3) 8532 - 2358 = 6174.
 
 
-# first solution
+# First solution
 
 ```javascript
 function KaprekarsConstant(num) {
