@@ -10,7 +10,7 @@ Use the Parameter Testing feature in the box below to test your code with differ
 
 
 ## First solution attempt
-```
+```javascript
 function simpleSymbols(str) {
 
     //  this is an array and string based approach
@@ -62,7 +62,7 @@ console.log(simpleSymbols('+d+=3=+s+'))
 
 ## Refactored second solution
 
-```
+```javascript
 function refactoredSimpleSymbols(str) {
 
     // this is a string based approach

@@ -15,7 +15,7 @@ Input:45
 Output:"0:45"
 
 # Solution - using division and modulo
-```
+```javascript
 function timeConvert(num) {
 
     //  Math approach using division and modulo

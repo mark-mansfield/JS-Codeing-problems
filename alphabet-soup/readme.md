@@ -7,9 +7,9 @@ OUTPUT : 'abcde'
 
 You can assume punctuation and numbers will not be included in the input string.
 
-## Solution 1
+## First Solution
 
-```
+```javascript
 unction alphabetSoup(str) {
     const array = str.split('')
 
@@ -34,9 +34,9 @@ unction alphabetSoup(str) {
 console.log(alphabetSoup('gfedcba'))
 ```
 
-## Solution 2
+## Second Solution
 
-```
+```javascript
 function alphabetSoupAlt(str) {
 
     // make a sortable object

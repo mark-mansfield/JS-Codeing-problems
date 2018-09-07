@@ -7,7 +7,9 @@ Input:"hello world"
 
 Output:"Hello World"
 
-```
+
+## First Solution
+```javascript
 function LetterCapitalize(str) {
 
     const arr = str.split('')

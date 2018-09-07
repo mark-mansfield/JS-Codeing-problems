@@ -3,8 +3,8 @@ Have the function CheckNums(num1,num2) take both parameters being passed and ret
 
 Use the Parameter Testing feature in the box below to test your code with different arguments.
 
-# solution first attempt
-```
+# First Solution
+```javascript
  if (num1 > num2) {
       return 'true'
   } else if (num2 > num1) {
@@ -17,8 +17,8 @@ Use the Parameter Testing feature in the box below to test your code with differ
 
 
 
-## alternate solution
-```
+## Alternate solution
+```javascript
 function CheckNums(num1,num2) {
 
  function checkNumsAlternate(num1, num2) {
